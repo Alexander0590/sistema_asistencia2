@@ -85,7 +85,6 @@ if($_SESSION['rol']==="1"){
     <div class="menu-item">
         <a href="#"><i class="bi bi-calendar-check"></i><span>Asistencia</span></a>
         <div class="submenu">
-            <a href="#" id="x1">Registrar Automatico</a>
             <a href="#" id="x2">Registrar Manual</a>
             <a href="#" id="x3">Ver asistencia</a>
             <a href="#">Reportes de asistencia</a>
@@ -141,6 +140,7 @@ if($_SESSION['rol']==="1"){
 <script src="lib/sweetalert2/sweetalert2.min.js"></script>
 
 <script src="javascrip/panel.js"></script>
+<script src="javascrip/asistenciamante.js"></script>
 <script src="lib/boostrap-js/bootstrap.bundle.min.js"></script>
 <script src="javascrip/usuariosmante.js"></script>
 <script src="javascrip/personalmante.js"></script>
